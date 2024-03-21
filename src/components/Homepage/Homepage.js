@@ -34,38 +34,38 @@ const Homepage = () => {
     {
       id: uuidv4(),
       video: "https://www.youtube.com/embed/CfOGonN9h6c",
-      description: "Robot Project",
+
 
     },
     {
       id: uuidv4(),
       video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+
 
     },
     {
       id: uuidv4(),
       video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+   
 
     },
     
     {
       id: uuidv4(),
       video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+ 
 
     },
     {
       id: uuidv4(),
       video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+ 
 
     },
     {
       id: uuidv4(),
       video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+ 
 
     },
     
@@ -113,8 +113,7 @@ const Homepage = () => {
       {/* Homepage first screen */}
       <div className="section1">
         <div className='carousel-container' id='carousel-1-container'>
-        {/* <h1 style={{position: "absolute", color: "white", marginLeft:"42%", marginTop: "-60%", fontSize: "26px"}}>Welcome to New Generation Academy</h1> */}
-          <h1 style={{position: "absolute", color: "rgb(169, 165, 165)", marginLeft:"-55%", marginTop: "-57%", fontSize: "20px"}}>Student Project</h1>
+       
           
         <Carousel itemsToShow={1}>
         {
@@ -128,7 +127,7 @@ const Homepage = () => {
         </Carousel>
         </div>
          <div className='carousel-container2'>
-         <h1 style={{position: "absolute", color: "rgb(169, 165, 165)", marginLeft:"-55%", marginTop: "-57%", fontSize: "20px"}}>Group Project</h1>
+
           
          <Carousel itemsToShow={1}>
               {
