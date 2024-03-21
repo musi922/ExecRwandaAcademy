@@ -145,15 +145,15 @@ const Homepage = () => {
         </div> 
       </div>
       <div >
-        <button className='readmore'><Link to="/ProgramsPage" style={{color:"white", textDecoration:"none"}}>Read more</Link></button>
-        <button className='tittle'>Welcome To New Generation Academy</button>
+        {/* <button className='readmore'><Link to="/ProgramsPage" style={{color:"white", textDecoration:"none"}}>Read more</Link></button>
+        <button className='tittle'>Welcome To New Generation Academy</button> */}
       </div>
       {/* about us summary page */}
      <div className='About'>
       <img src={norrs} alt="not " style={{height: "84vh",marginTop: "3%",width: "60%", backGroundPosition: "center", backGroundSize: "cover", marginLeft: "40%", opacity: "0.8"}}/>
       <div className='rics'>
-          <h1>What We Do at NGA</h1>
-          <p1>New generation Academy is an Excellence<br></br>
+          <h1>What We Do at ERA</h1>
+          <p1>Exec Rwanda Academy is an Excellence<br></br>
     School aime at Teaching students to reach<br></br> 
     on ahigh and Competent Level</p1>
       <button className="readmore1">Read more</button>
@@ -169,16 +169,7 @@ const Homepage = () => {
 
           </section>
         </div>
-        <div className='missions'>
 
-          <img src={group} style={{marginLeft: "35%", marginTop: "11%", border: "none"}}/>
-          <h1>Mission</h1>
-          <section style={{padding: "6px"}}>
-            <p1>Lorem ipsum dolor sit amet adipcing<br></br>
-          aqua lorem ipsum.</p1>
-
-          </section>
-        </div>
         <div className='values'>
           <img src={group} style={{marginLeft: "35%", marginTop: "11%", border: "none"}}/>
           <h1>Values</h1>
@@ -195,6 +186,16 @@ const Homepage = () => {
           aqua lorem ipsum.</p1>
         </section>
         </div> 
+        <div className='missions'>
+
+          <img src={group} style={{marginLeft: "35%", marginTop: "11%", border: "none"}}/>
+          <h1>Mission</h1>
+          <section style={{padding: "6px"}}>
+            <p1>Lorem ipsum dolor sit amet adipcing<br></br>
+          aqua lorem ipsum.</p1>
+
+          </section>
+        </div>
       </div>
     </div>
     {/* progrms summary page */}
@@ -249,32 +250,29 @@ aqua lorem ipsum folor suit met voul adnoi<br></br>bury adpci diul lorem.</p1>
       <div className='box1'>
         <SiGoogleclassroom className="room"/>
         <h1>Nursery Projects</h1>
-        <p1>We teach our students the way to make the best<br></br></p1>
-        <h2>things required world wide</h2>
+        
       </div>
       <div className='box2'>
       <GiVintageRobot className="room"/>
         <h1>Robotics Project</h1>
-        <p1>We teach our students the way to make the best<br></br></p1>
-        <h2>things required world wide</h2>
+        
       </div>
       <div className='box3'>
       <SiKhanacademy className="room"/>
         <h1>Primary Project</h1>
-        <p1>We teach our students the way to make the best<br></br></p1>
-        <h2>things required world wide</h2>
+       
       </div>
     </div>
     
     <div className='projects'>
       <div className='cardone' id='0'>
       <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU" head="Robots Project" 
-      studentname="Manzi fred" studentno="12" class="p3" date="01-01-2023"/>
-      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU" head="Robots Project" studentname="Manzi fred" />
-      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU" head="Robots Project" studentname="Manzi fred" />
-      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU" head="Robots Project" studentname="Manzi fred" />
-      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU" head="Robots Project" studentname="Manzi fred" />
-      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU" head="Robots Project" studentname="Manzi fred"/>
+     />
+      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"  />
+      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"  />
+      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"/>
+      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"  />
+      <Projectcard img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"/>
       </div >
        <div className='no'>
        <div className='nexte'>
@@ -297,16 +295,15 @@ aqua lorem ipsum folor suit met voul adnoi<br></br>bury adpci diul lorem.</p1>
     </div>
     {/* reasons to join us */}
       <div className='reasonis'>
-        <h1 style={{color:"#3A4E50", marginLeft: "34%", marginTop:"3%"}}>The Reason to join New Generation Academy</h1>
+        <h1 style={{color:"#3A4E50", marginLeft: "18%", marginTop:"3%"}}>The Reason to join New Generation Academy</h1>
         <div className='car'>
-        <Reasons head="International Accredited" description="it is a non profit public-benefit corporation that help organisationsdemonstrate compliance andcompetense to their public"
-        img="https://www.nga.ac.rw/wp-content/uploads/2021/03/cambrige.jpg"/>
+       
         <Reasons head="Christian Life" description="it is a non profit public-benefit corporation that help organisations demonstrate compliance anda competense to their public"
-        img="https://www.nga.ac.rw/wp-content/uploads/2021/06/457A1300-scaled.jpg"/>
+        img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"/>
         <Reasons head="Student life" description="it is a non profit public-benefit corporation that help organisations demonstrate compliance anda competense to their public"
-        img="https://www.nga.ac.rw/wp-content/uploads/2021/07/457A2067-scaled-800x400.jpg"/>
+        img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"/>
         <Reasons head="School facilities" description="it is a non profit public-benefit corporation that help organisations demonstrate compliance anda competense to their public"
-        img="https://www.nga.ac.rw/wp-content/uploads/2021/07/457A2267-scaled-800x400.jpg"/>
+        img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU"/>
       </div>
       </div>
       <div className='register'>
@@ -331,13 +328,13 @@ aqua lorem ipsum folor suit met voul adnoi<br></br>bury adpci diul lorem.</p1>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}><Link to={"/Programspage"} style={{color:"white", textDecoration:"none"}}>Programs</Link></p1><br></br>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}><Link to={"/Newspage"} style={{color:"white", textDecoration:"none"}}>In the news</Link></p1><br></br>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}><Link to={"/Contactpage"} style={{color:"white", textDecoration:"none"}}>Contact us</Link></p1><br></br>
-          <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}><Link to={"/Loginpage"} style={{color:"white", textDecoration:"none"}}>Admin</Link></p1>
+
           </div>
           <div className='thirdly'>
           <h1 style={{color: "white",fontSize:"19px", marginTop:"-3%", marginLeft:"1%"}}>Address</h1>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Adress: Gasabo-Kimihurura</p1><br></br>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Avenue: KGAV23</p1><br></br>
-          <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Email:Newgeaneration@gmail.com</p1><br></br>
+          <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Email:exec@gmail.com</p1><br></br>
           </div>
           <div className='fourthly'>
           <h1 style={{color: "white",fontSize:"19px", marginTop:"-1%", marginLeft:"1%"}}>Let's Stay Connected</h1>
@@ -349,16 +346,15 @@ aqua lorem ipsum folor suit met voul adnoi<br></br>bury adpci diul lorem.</p1>
           </div>
           <div className='fifth'>
              <button className='view'>
-              <a style={{color: "white", textDecoration: "none"}} href="https://www.google.com/maps/place/New+Generation+Academy/@-1.9556697,30.0779318,17z/data=!3m1!4b1!4m6!3m5!1s0x19dca7084cb0c413:0xe7d586d77471397c!8m2!3d-1.9556697!4d30.0801205!16s%2Fg%2F11px959qnm" target={"_blank"}>View map <CiLocationOn style={{color: "white", fontSize: "22px"}}/></a>
-               </button> 
+             <a style={{color: "white", textDecoration: "none"}} href="https://www.google.com/maps/place/Richard+Code+Genius/@-1.9604883,30.063312,15z/data=!4m6!3m5!1s0x26fd8ea5a278de83:0x2d3f47f4185dc3f6!8m2!3d-1.9604883!4d30.063312!16s%2Fg%2F11sv_fflpk?entry=ttu" target={"_blank"}>View map <CiLocationOn style={{color: "white", fontSize: "22px"}}/></a>               </button> 
           </div>
         </div>
         <div className='footer3'>
           <h1 style={{color:"rgb(154, 153, 153)", fontSize: "16px", marginTop: "2%"}}>Administrative office: KGAV23 Kimihurura</h1>
           <div className='pici'></div>
           <div>
-            <h1 style={{color: "#0193DC", marginTop: "2%", marginLeft: "1%"}}>New Generation Academy<br></br><span style={{color:"white"}}>Transformed For Community</span></h1>
-            <p1 style={{color:"rgb(154, 153, 153)", fontSize: "16px", marginTop: "2%", marginLeft: "16%", position: "absolute"}}>&copy; {2023} New Generation Academy. All Rights Reserved.</p1>
+            <h1 style={{color: "#0193DC", marginTop: "2%", marginLeft: "1%"}}>Exec Rwanda Academy<br></br><span style={{color:"white"}}>Transformed For Community</span></h1>
+            <p1 style={{color:"rgb(154, 153, 153)", fontSize: "16px", marginTop: "2%", marginLeft: "16%", position: "absolute"}}>&copy; {2023} Exec Rwanda Academy. All Rights Reserved.</p1>
           </div>
 
         </div>

@@ -18,7 +18,7 @@ const Navigation = () => {
         <div className="heads">
           <img src={img} alt="notfound" style={{ height: '4vh', marginLeft: '12px' }} />
           <Link to={'/'} className="log" style={{textDecoration:"none", }}>
-            New Generation Academy<span style={{ color: 'white' }}>
+            Exec Rwanda Academy<span style={{ color: 'white' }}>
               <br />
               Transformed For Community
             </span>

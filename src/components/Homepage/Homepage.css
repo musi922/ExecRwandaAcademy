@@ -2,14 +2,14 @@
     background: white;
 }
 .carousel-container {
-    width: 50%;
-    height: 400px;
-    margin-left: -1%;
+    width: 45%;
+    height: 200px;
+    margin-left: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 14%;
     gap: 20px;
     margin: 4 -4px;
   }
@@ -20,8 +20,8 @@
   
   
 .carousel-container2 {
-    width: 50%;
-    height: 300px;
+    width: 45%;
+    height: 200px;
     margin-left: 51%;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
     position: absolute;
     flex-direction: row;
     gap: 20px;
-    margin-top: 15%;
+    margin-top: 14%;
     position: absolute;
 }
   
@@ -147,7 +147,7 @@
     width: 580px;
     height: 412px;
     margin-left: -4%;
-    margin-top: -34%;
+    margin-top: -40%;
     text-align: center;
     position: relative;
 }
@@ -199,7 +199,7 @@
     height: 74vh;
     width: 54%;
     margin-left: 40%;
-    margin-top: -31.4%;
+    margin-top: -25.4%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -219,8 +219,8 @@
     border:  1px solid transparent;
     border-radius: 5px;
     height: 240px;
-    margin-top: 5%;
-    margin-left: 9%;
+    margin-top: 1%;
+    margin-left: 2%;
     background-color: white;
 
 }
@@ -254,8 +254,9 @@ color: #919FAE;
     width: 260px;
     border:  1px solid transparent;
     border-radius: 5px;
-    height: 240px;
-    margin-top: 5%;
+    height: 200px;
+    margin-top: -25%;
+    margin-left: -3%;
     background-color: white;
 
 }
@@ -268,27 +269,26 @@ color: #919FAE;
     align-items: center;
     letter-spacing: 0.3px;
     color: #0C101A;
-    margin-left: 20%;
+    margin-left: 30%;
 
 }
 
-.missions p2 {  
+.missions p1 {  
     font-family: 'Poppins';
     font-style: normal;
     font-size: 14px;
-    margin-left: 2%;
+    margin-left: 4%;
     line-height: 24px;
     letter-spacing: 0.3px;
     color: #919FAE;
-    
 }
 .values{
     width: 260px;
     border:  1px solid transparent;
     border-radius: 5px;
     height: 240px;
-    margin-top: -8%;
-    margin-left: 9%;
+    margin-top: -45%;
+    margin-left: 49%;
     background-color: white;
 
 }
@@ -321,8 +321,9 @@ color: #919FAE;
     width: 260px;
     border:  1px solid transparent;
     border-radius: 5px;
-    height: 240px;
-    margin-top: -8%;
+    height: 200px;
+    margin-top: -25%;
+    margin-left: 1%;
     background-color: white;
 
 }
@@ -365,11 +366,11 @@ color: #919FAE;
     font-weight: 700;
     font-size: 34px;
     line-height: 38px;
-    margin-left: 26%;
+    margin-left: 10%;
     margin-top: 3%; 
 }
 .input{
-    margin-left: 56%;
+    margin-left: 66%;
     margin-top: -3%;
     border: 1px solid transparent;
     background-color: #e5e6e8;
@@ -381,9 +382,9 @@ color: #919FAE;
 }
 .search{
     color: rgb(76, 76, 76);
-    margin-left: 56.2%;
+    margin-left: 66.2%;
     position: absolute;
-    margin-top: -2.19%;
+    margin-top: -1.89%;
     font-size: 20px;
     
 }
@@ -396,6 +397,7 @@ color: #919FAE;
     border-bottom: none;
     border-top: none;
     margin-top: 3%;
+    
 }
 
 .coding{
@@ -407,7 +409,7 @@ color: #919FAE;
     background-repeat: no-repeat;
     border: 1px solid transparent;
     border-radius: 8px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 3%;
 }
 .text h1{
@@ -418,7 +420,7 @@ color: #919FAE;
     font-weight: 700;
     font-size: 23px;
     margin-top: -13%;
-    margin-left: 28%;
+    margin-left: 22%;
     line-height: 21px;
     /* identical to box height */
 
@@ -435,7 +437,7 @@ color: #919FAE;
 .text p1{
     position: absolute;
     margin-top: -11%;
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -453,7 +455,7 @@ color: #919FAE;
 .text h2{
     position: absolute;
     margin-top: -4%;
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -487,7 +489,7 @@ color: #919FAE;
     background-repeat: no-repeat;
     border: 1px solid transparent;
     border-radius: 8px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 3%;
 }
 
@@ -499,7 +501,7 @@ color: #919FAE;
     font-weight: 700;
     font-size: 23px;
     margin-top: -13%;
-    margin-left: 28%;
+    margin-left: 22%;
     line-height: 21px;
     /* identical to box height */
 
@@ -516,7 +518,7 @@ color: #919FAE;
 .texts p1{
     position: absolute;
     margin-top: -11%;
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -534,7 +536,7 @@ color: #919FAE;
 .texts h2{
     position: absolute;
     margin-top: -4%;
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -567,7 +569,7 @@ color: #919FAE;
     background-repeat: no-repeat;
     border: 1px solid transparent;
     border-radius: 8px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 3%;
 }
 .textss h1{
@@ -578,7 +580,7 @@ color: #919FAE;
     font-weight: 700;
     font-size: 23px;
     margin-top: -13%;
-    margin-left: 28%;
+    margin-left: 22%;
     line-height: 21px;
     /* identical to box height */
 
@@ -595,7 +597,7 @@ color: #919FAE;
 .textss p1{
     position: absolute;
     margin-top: -11%;
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -613,7 +615,7 @@ color: #919FAE;
 .textss h2{
     position: absolute;
     margin-top: -4%;
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -803,6 +805,7 @@ color: #919FAE;
     height: 120vh;
     width: 100%;
     background-color: white;
+   
     
 }
 .cardone{
@@ -811,9 +814,10 @@ color: #919FAE;
     flex-wrap: wrap;
     margin-top: 2%;
     gap: 45px;
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 10px 200px 40px;
     width: 100%;
+   
 }
 .no{
     display: flex;
@@ -823,8 +827,8 @@ color: #919FAE;
     gap: 12px;
 }
 .numbers{
-    height: 3vh;
-    width: 3vh;
+    height: 5vh;
+    width: 5vh;
     border-radius: 50%;
     background-color: #0193DC;
    
@@ -834,11 +838,11 @@ color: #919FAE;
     text-align: center;
     color: white;
     align-items: center;
-    margin-top: 17%;
+    margin-top: 15%;
 }
 .number2{
-    height: 3vh;
-    width: 3vh;
+    height: 5vh;
+    width: 5vh;
     border-radius: 50%;
     background-color: #0193DC;
 }
@@ -850,8 +854,8 @@ color: #919FAE;
     margin-top: 17%;
 }
 .number3{
-    height: 3vh;
-    width: 3vh;
+    height: 5vh;
+    width: 5vh;
     border-radius: 50%;
     background-color: #0193DC;
 }
@@ -881,6 +885,8 @@ color: #919FAE;
 .reasonis{
     height: 70vh;
     width: 100%;
+    margin-top: 14%;
+    
 }
 .rea{
     display: flex;
@@ -889,7 +895,7 @@ color: #919FAE;
 }
 .car{
     margin-top: -2%;
-    padding: 90px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     width: 100%;

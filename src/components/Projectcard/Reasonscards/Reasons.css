@@ -1,11 +1,11 @@
 .reasons{
-    height: 50vh;
-    width: 35vh;
+    height: 60vh;
+    width: 60vh;
     background-color: #F9FBFD;
     border: 2px solid rgb(222, 222, 228);
     border-radius: 9px;
     border-top: none;
     border-bottom: none;
-    gap: 6px;
+    gap: 1px;
    
 }

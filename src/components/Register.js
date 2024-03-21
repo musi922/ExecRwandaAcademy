@@ -60,14 +60,7 @@ function Register() {
                 onChange={(e) => setProgram(e.target.value)} 
                 required 
                 />
-        <label htmlFor="studentname">student Name</label>
-                <input 
-                type="studentname" 
-                id="studentname" 
-                value={studentname} 
-                onChange={(e) => setStudentname(e.target.value)} 
-                required 
-                />
+        
 
         <button type="submit">Register</button>
       </form>

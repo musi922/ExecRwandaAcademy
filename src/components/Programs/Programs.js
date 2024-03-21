@@ -21,9 +21,9 @@ const Programspage = () => {
     setDate(date);
   };
   const photos = [
-    'https://www.nga.ac.rw/wp-content/uploads/2021/07/457A1347-scaled-800x400.jpg',
-    'https://www.nga.ac.rw/wp-content/uploads/2021/07/457A1559-scaled-800x400.jpg',
-    'https://www.nga.ac.rw/wp-content/uploads/2021/07/457A1961-scaled-800x400.jpg'
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CA',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9IzO2nC-9dmOVxSR5xfKT8JZ_L0oVgYA3A&usqp=CAU'
   ];
   
 
@@ -35,7 +35,7 @@ const Programspage = () => {
       <div><img src={image} alt="not found" style={{height: "58vh",top:"112px", width: "100%", backGroundPosition: "center", backGroundSize: "cover"}}/></div>
          
       <h1 className="ttle" style={{width:"50%"}}>School Programs </h1>
-        <div className='t-part'>
+        <div className='t-part' style={{marginTop: "-11%"}}>
         <p className='t-head'>  Annoucements </p>
         <p className='t-head_content'>  We make a new Registration!!, 
         for those who want to register for SMK Mangcoding can come directly to the Location </p>
@@ -113,13 +113,13 @@ const Programspage = () => {
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}>Programs</p1><br></br>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}>In the news</p1><br></br>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}>Contact us</p1><br></br>
-          <p1 style={{color: "white", cursor: "pointer", marginLeft:"9%"}}>Admin</p1>
+
           </div>
           <div className='thirdly'>
           <h1 style={{color: "white",fontSize:"19px", marginTop:"-3%", marginLeft:"1%"}}>Address</h1>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Adress: Gasabo-Kimihurura</p1><br></br>
           <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Avenue: KGAV23</p1><br></br>
-          <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Email:Newgeaneration@gmail.com</p1><br></br>
+          <p1 style={{color: "white", cursor: "pointer", marginLeft:"-2%"}}>Email:exec@gmail.com</p1><br></br>
           </div>
           <div className='fourthly'>
           <h1 style={{color: "white",fontSize:"19px", marginTop:"-1%", marginLeft:"1%"}}>Let's Stay Connected</h1>
@@ -131,16 +131,15 @@ const Programspage = () => {
           </div>
           <div className='fifth'>
              <button className='view'>
-              <a style={{color: "white", textDecoration: "none"}} href="https://www.google.com/maps/place/New+Generation+Academy/@-1.9556697,30.0779318,17z/data=!3m1!4b1!4m6!3m5!1s0x19dca7084cb0c413:0xe7d586d77471397c!8m2!3d-1.9556697!4d30.0801205!16s%2Fg%2F11px959qnm" target={"_blank"}>View map <CiLocationOn style={{color: "white", fontSize: "22px"}}/></a>
-               </button> 
+             <a style={{color: "white", textDecoration: "none"}} href="https://www.google.com/maps/place/Richard+Code+Genius/@-1.9604883,30.063312,15z/data=!4m6!3m5!1s0x26fd8ea5a278de83:0x2d3f47f4185dc3f6!8m2!3d-1.9604883!4d30.063312!16s%2Fg%2F11sv_fflpk?entry=ttu" target={"_blank"}>View map <CiLocationOn style={{color: "white", fontSize: "22px"}}/></a>               </button> 
           </div>
         </div>
         <div className='footer3'>
           <h1 style={{color:"rgb(154, 153, 153)", fontSize: "16px", marginTop: "2%"}}>Administrative office: KGAV23 Kimihurura</h1>
           <div className='pici'></div>
           <div>
-            <h1 style={{color: "#0193DC", marginTop: "2%", marginLeft: "1%"}}>New Generation Academy<br></br><span style={{color:"white"}}>Transformed For Community</span></h1>
-            <p1 style={{color:"rgb(154, 153, 153)", fontSize: "16px", marginTop: "2%", marginLeft: "16%", position: "absolute"}}>&copy; {2023} New Generation Academy. All Rights Reserved.</p1>
+            <h1 style={{color: "#0193DC", marginTop: "2%", marginLeft: "1%"}}>Exec Rwanda Academy<br></br><span style={{color:"white"}}>Transformed For Community</span></h1>
+            <p1 style={{color:"rgb(154, 153, 153)", fontSize: "16px", marginTop: "2%", marginLeft: "16%", position: "absolute"}}>&copy; {2023} Exec Rwanda Academy. All Rights Reserved.</p1>
           </div>
 
         </div>
