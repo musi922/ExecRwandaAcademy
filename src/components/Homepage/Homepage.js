@@ -74,32 +74,33 @@ const Homepage = () => {
   const Homecard2 = [
     {
       id: uuidv4(),
-      video: "https://www.youtube.com/embed/Zaa1d3Vn0Zo",
-      description: "Robot Project",
+      video: "https://www.youtube.com/embed/Amfrm2V_KO0?si=cLSXKtqaysJjK9zI",
+   
 
     },
     {
       id: uuidv4(),
-      video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+      video: "https://www.youtube.com/embed/nROxnWBhrv0?si=TvMeXFN7g-dFLRJ1",
+
+
+    },
+    
+    {
+      id: uuidv4(),
+      video: "https://www.youtube.com/embed/7xCe2m0kiSg?si=5k-MIbJ7Y8s6dCqc",
+
 
     },
     {
       id: uuidv4(),
-      video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+      video: "https://www.youtube.com/embed/7xCe2m0kiSg?si=5k-MIbJ7Y8s6dCqc",
+     
 
     },
     {
       id: uuidv4(),
-      video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
-
-    },
-    {
-      id: uuidv4(),
-      video: "https://www.youtube.com/embed/ncvtUuUfqP8",
-      description: "Robot Project",
+      video: "https://www.youtube.com/embed/7xCe2m0kiSg?si=5k-MIbJ7Y8s6dCqc",
+     
 
     },
 
